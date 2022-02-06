@@ -1,0 +1,7 @@
+{
+  "name": "angular-ionic-insta",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
