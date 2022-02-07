@@ -20,12 +20,16 @@ const routes: Routes = [
         loadChildren: () => import('../reels/reels.module').then(m => m.ReelsPageModule)
       },
       {
-        path: 'reels',
-        loadChildren: () => import('../reels/reels.module').then(m => m.ReelsPageModule)
+        path: 'shop',
+        loadChildren: () => import('../shop/shop.module').then(m => m.ShopPageModule)
       },
       {
         path: 'profile',
         loadChildren: () => import('../profile/profile.module').then(m => m.ProfilePageModule)
+      },
+      {
+        path: 'login',
+        loadChildren: () => import('../login/login.module').then(m => m.LoginPageModule)
       },
       {
         path: '',
